@@ -4,7 +4,7 @@ def main():
     is_auto = get_is_auto()
     # is_auto = 'n'
     paaword_num = 5
-    if is_auto == 'n':
+    if is_auto == 'y':
         password_len = 16
     else:
         password_len = get_password_len()
