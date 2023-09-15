@@ -27,10 +27,10 @@ def get_is_auto():
 
 def get_password_len():
     while True:
-        password_len = input('請選擇亂數長度[1-16]：')
+        password_len = input('請選擇亂數長度[1-64]：')
         if password_len.isdigit():
             password_len = int(password_len)
-            if password_len > 0 and password_len <= 16:
+            if password_len > 0 and password_len <= 64:
                 return password_len
                 
         print('輸入格式錯誤，請重新輸入！')
