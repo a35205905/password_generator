@@ -140,3 +140,6 @@ dmypy.json
 __pycache__/
 local_settings.py
 .idea/
+
+# macOS
+.DS_Store
